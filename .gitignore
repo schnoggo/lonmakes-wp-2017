@@ -1,18 +1,70 @@
-*.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+#
+# This is an all-in-one .gitignore for WordPress 
+# customizations. It starts at /wp-content
+# and ignores plugins, uploads and all the 
+# regular WordPress files.
+# Adding new themes (and child themes of official
+# WordPress themes) works by default.
+#
+# When developing plugins, just force (-f) when
+# you add those files to your repo.
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+*.log
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.idea/
+
+
+# local scratch area #
+######################
+
+
+# run-time stuff to skip #
+##########################
+.ftpquota
+error_log
+
+# regular WordPress files:
+##########################
+
+/index.php
+/plugins/*
+/mu-plugins/
+/upgrade/
+/uploads/
+/themes/index.php
+/themes/twentyten
+/themes/twentyeleven
+/themes/twentytwelve
+/themes/twentythirteen
+/themes/twentyfourteen
+/themes/twentyfifteen
+/themes/twentysixteen
+/themes/twentyseventeen
+/themes/twentyeighteen
+/themes/twentynineteen
+
+
+# WordPress related caches and backups
+##########################
+/advanced-cache.php
+/backup-db/
+/backups/
+/cache/
+/wp-cache-config.php
+/languages/
+
+# Database snapshots #
+######################
+
+##########################
 
