@@ -1,0 +1,20 @@
+*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       Lon Koenig
+ Author URI:   http://lonk.me
+ Template:     twentyfourteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+ Text Domain:  twentyfourteen
+*/
+
+div#featured-content.featured-content>.featured-content-inner{
+	display: none !important;
+}
+div.featured-content-inner{
+display: none !important;
+}
